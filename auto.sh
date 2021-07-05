@@ -1,3 +1,6 @@
+apt update
+apt upgrade -y
+apt dist-upgrade -y
 cd ~/
 git clone https://github.com/FD-/RPiPlay.git
 cd RPiPlay

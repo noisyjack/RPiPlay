@@ -2,6 +2,7 @@ apt update
 apt upgrade -y
 apt dist-upgrade -y
 cd ~/
+apt install git -y
 git clone https://github.com/FD-/RPiPlay.git
 cd RPiPlay
 apt-get install cmake -y

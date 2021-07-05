@@ -1,0 +1,16 @@
+[Unit]
+Description=RPi Play
+After=network.target
+StartLimitIntervalSec=30
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=10
+User=pi
+ExecStart=/home/pi/RPiPlay/build/rpiplay -b off -n Projector -ar dummy -l
+StandardOutput=inherit
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

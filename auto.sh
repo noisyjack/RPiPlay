@@ -2,7 +2,7 @@ apt update
 apt upgrade -y
 apt dist-upgrade -y
 cd ~/
-apt install git libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev gstreamer1.0-libav gstreamer1.0-vaapi gstreamer1.0-plugins-bad -y
+apt install git -y
 git clone https://github.com/scratchedguitar/RPiPlay.git
 cd RPiPlay
 apt-get install cmake -y

@@ -13,6 +13,7 @@ mkdir build
 cd build
 cmake ..
 make -j
+make install
 cd ..
 cp rpiplay.service /etc/systemd/system/
 systemctl daemon-reload

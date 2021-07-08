@@ -8,7 +8,7 @@ Type=simple
 Restart=always
 RestartSec=10
 User=pi
-ExecStart=/home/pi/RPiPlay/build/rpiplay -b off -n Projector -ar dummy -l
+ExecStart=/usr/local/bin/rpiplay -b off -n Projector -ar dummy -l
 StandardOutput=inherit
 StandardError=journal
 

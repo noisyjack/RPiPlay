@@ -134,10 +134,10 @@ raop_handler_info(raop_conn_t *conn,
     plist_t displays_0_uuid_node = plist_new_string("e0ff8a27-6738-3d56-8a16-cc53aacee925");
     plist_t displays_0_width_physical_node = plist_new_uint(0);
     plist_t displays_0_height_physical_node = plist_new_uint(0);
-    plist_t displays_0_width_node = plist_new_uint(1920);
-    plist_t displays_0_height_node = plist_new_uint(1080);
-    plist_t displays_0_width_pixels_node = plist_new_uint(1920);
-    plist_t displays_0_height_pixels_node = plist_new_uint(1080);
+    plist_t displays_0_width_node = plist_new_uint(1024);
+    plist_t displays_0_height_node = plist_new_uint(768);
+    plist_t displays_0_width_pixels_node = plist_new_uint(1024);
+    plist_t displays_0_height_pixels_node = plist_new_uint(768);
     plist_t displays_0_rotation_node = plist_new_bool(0);
     plist_t displays_0_refresh_rate_node = plist_new_real(1.0 / 60.0);
     plist_t displays_0_overscanned_node = plist_new_bool(1);
